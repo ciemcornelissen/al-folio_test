@@ -44,21 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio_test/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio_test/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio_test/blog/";
-              },
-            },{id: "post-in-field-grape-quality-mapping-with-illumination-invariant-ai",
+        },{id: "post-in-field-grape-quality-mapping-with-illumination-invariant-ai",
         
           title: "In-Field Grape Quality Mapping with Illumination-Invariant AI",
         
@@ -121,13 +107,6 @@ ninja.data = [{
           window.open("https://github.com/ciemcornelissen", "_blank");
         },
       },{
-        id: 'social-gitlab',
-        title: 'GitLab',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://gitlab.com/ciem.cornelissen", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
@@ -142,25 +121,18 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Ciem-Cornelissen/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/al-folio_test/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
+          window.open("https://scholar.google.com/citations?user=UmGdnPYAAAAJ", "_blank");
         },
       },{
         id: 'social-work',
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.ugent.be/ea/idlab/en", "_blank");
+          window.open("https://research.ugent.be/web/person/ciem-cornelissen-1/nl", "_blank");
         },
       },{
       id: 'light-theme',
